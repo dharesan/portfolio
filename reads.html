@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <meta charset="utf-8">
-    <meta name = "viewport" content ="width = device-width, intial-scale = 1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
         body {
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            /* yay i manage to change the font  */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center; /* center text and inline elements */
         }
-    </style> 
+        .center-image {
+            display: block;
+            margin: 30px auto;   /* centers the image */
+            max-width: 80%;      /* responsive sizing */
+            height: auto;        /* keep aspect ratio */
+        }
+        .caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    </style>
 
     <title>Reads</title>
 </head>
 <body>
+
+    <img src="images/books_190925.jpg" alt="Books" class="center-image">
+    <div class="caption">let's try to hit the roof!!</div>
+    <br> 
+    <p> updated as of 19 sep 2025 </p>
+
     <h1>My current reads</h1>
     <p>I am currently reading:</p>
     <ul><a href="https://www.amazon.sg/Man-Who-Solved-Market-Revolution/dp/073521798X" target="_blank">The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution</a> by Gregory Zuckerman</ul>
     <ul><a href="https://www.amazon.sg/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" target="_blank">Thinking, Fast and Slow</a> by Daniel Kahneman PhD </ul>
     <ul><a href="https://www.amazon.sg/First-Phone-Call-Heaven-Novel/dp/0062472607" target="_blank">The First Phone Call from Heaven</a> by Mitch Albom</ul>
-    <ul><a href="https://www.amazon.sg/Have-Little-Faith-Mitch-Albom/dp/0751537519/ref=asc_df_0751537519?mcid=5eb6f3d1fdbd3905951c521e732ce3b4&tag=googleshoppin-22&linkCode=df0&hvadid=692982401440&hvpos=&hvnetw=g&hvrand=15091091951917588456&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062548&hvtargid=pla-464052524067&psc=1&gad_source=1" target="_blank">Have a Little Faith</a> by Mitch Albom</ul>
+    <ul><a href="https://www.amazon.sg/Have-Little-Faith-Mitch-Albom/dp/0751537519" target="_blank">Have a Little Faith</a> by Mitch Albom</ul>
 
-    <hr> 
-    <br>
+    <hr>
     <br>
     <a href="index.html">Back to Home</a>
 </body>
